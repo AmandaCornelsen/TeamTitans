@@ -1,0 +1,109 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+:root {
+    --color-light: #fff;
+    --bg-Purple: #392a42;
+    --color-DarkPurple: #9063873a;
+    --color-lightpurple: #5B446A;
+    --color-Green: #4C9173;
+    --color-lightGreen: #7DD87D;
+    --color-gray:rgb(56, 56, 56);
+    --color-darkpink:#906387;
+    --color-pink:#dc143c;
+}
+ /* variaveis de cores do site  */
+.color-white{
+    color: var(--color-light);
+}
+
+.color-purple{
+    color: var(--bg-Purple);
+}
+.bg-purple {
+    background-color: var(--bg-Purple);
+}
+
+.color-DarkPurple{
+    color: var(--color-DarkPurple);
+}
+.bg-DarkPurple{
+    background-color: var(--color-DarkPurple);
+}
+
+.color-LightPurple{
+    color: var(--color-lightpurple);
+}
+
+.color-green{
+    color: var(--color-Green);
+}
+.bg-green{
+    background-color: var(--color-Green);
+}
+
+.color-LightGreen{
+    color: var(--color-lightGreen);
+}
+.bg-LightGreen{
+    background-color: var(--color-lightGreen);
+}
+
+.color-gray{
+    color: gray;
+}
+.bg-gray{
+    background-color: var(--color-gray);
+}
+
+.color-pink{
+    color: var(--color-pink);
+}
+.bg-Darkpink{
+    background-color: var(--color-darkpink);
+}
+
+.navbar-toggler{
+    box-shadow: none !important;
+}
+.robo-pic{
+    width: 25%;
+}
+
+
+.img-size{
+    width: 50%;
+}
+
+/* css dos cards, que ficaram fora de tamanho alinhados */
+.img-card img {
+    height: 40vh;
+}
+
+.card-height {
+    height: 60vh;
+}
+
+/* carrousel  */
+.carousel-height{
+    width: 50%;
+    height: 50%;
+
+}
+
+
+/* faixa colorida  */
+.container-color {
+    height: 20vh;
+}
+
+/* membros  */
+.membros {
+    width: 40%;
+}
+
+/* forms  */
+textarea {
+    height: 200px;
+    resize: none;
+}
